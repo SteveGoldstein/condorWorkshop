@@ -1,0 +1,17 @@
+## Submit file using $(CLUSTER) and $(PROCESS) macros.
+## To submit:  condor_submit <submit file>
+
+universe = vanilla
+
+executable = /bin/echo
+args = Hello World from job $(CLUSTER).$(PROCESS)
+
+output = hello.$(CLUSTER).$(PROCESS).out
+error  = hello.$(CLUSTER).$(PROCESS).err
+log    = hello.$(CLUSTER).log
+
+queue 
+
+queue
+
+queue

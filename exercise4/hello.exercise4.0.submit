@@ -1,0 +1,13 @@
+## Submit file for experimentation.
+## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
+
+universe = vanilla
+
+executable = /bin/echo
+args = Hello World from job $(CLUSTER).$(PROCESS) executing exercise $(EXERCISE).
+
+output = hello.exercise$(EXERCISE).$(CLUSTER).$(PROCESS).out
+error  = hello.exercise$(EXERCISE).$(CLUSTER).$(PROCESS).err
+log    = hello.exercise$(EXERCISE).$(CLUSTER).log
+
+queue 
