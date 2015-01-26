@@ -6,8 +6,8 @@ universe = vanilla
 executable = /bin/echo
 args = Hello World from job $(CLUSTER).$(PROCESS)
 
-output = <full-path-to>/exercise6/outdir/hello.$(CLUSTER).$(PROCESS).out
-error  = <full-path-to>/exercise6/queue/error/hello.$(CLUSTER).$(PROCESS).err
-log    = <full-path-to>/exercise6/queue/log/hello.$(CLUSTER).log
+output = /staff/sgoldstein/condorWorkshop/exercise6/outdir/hello.$(CLUSTER).$(PROCESS).out
+error  = /staff/sgoldstein/condorWorkshop/exercise6/queue/error/hello.$(CLUSTER).$(PROCESS).err
+log    = /staff/sgoldstein/condorWorkshop/exercise6/queue/log/hello.$(CLUSTER).log
 
 queue 

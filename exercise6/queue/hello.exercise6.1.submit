@@ -1,5 +1,5 @@
 ## Submit this from a directory other than the exercise6 dir;
-## To submit:  condor_submit <submit file>  -append initialdir=<full-path-to>/exercise6
+## To submit:  condor_submit <submit file>  -append initialdir=/staff/sgoldstein/condorWorkshop/exercise6
 
 universe = vanilla
 
