@@ -1,0 +1,14 @@
+## Make this work.  Hint: man condor_submit then search for env or ENV.
+
+## To submit:  condor_submit <submit file>
+
+universe = vanilla
+
+executable = echo
+args = Hello World from job $(CLUSTER).$(PROCESS)
+
+output = outdir/hello.$(CLUSTER).$(PROCESS).out
+error  = queue/error/hello.$(CLUSTER).$(PROCESS).err
+log    = queue/log/hello.$(CLUSTER).log
+
+queue 
