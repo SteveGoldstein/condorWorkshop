@@ -1,0 +1,13 @@
+## Submit this from a directory other than the exercise6 dir;
+## To submit:  condor_submit <submit file>
+
+universe = vanilla
+
+executable = /bin/echo
+args = Hello World from job $(CLUSTER).$(PROCESS)
+
+output = <full-path-to>/exercise6/outdir/hello.$(CLUSTER).$(PROCESS).out
+error  = <full-path-to>/exercise6/queue/error/hello.$(CLUSTER).$(PROCESS).err
+log    = <full-path-to>/exercise6/queue/log/hello.$(CLUSTER).log
+
+queue 
