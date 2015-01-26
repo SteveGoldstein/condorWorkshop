@@ -3,8 +3,7 @@
 
 universe = vanilla
 
-#SLEEP_TIME = 300
-SLEEP_TIME = 3
+SLEEP_TIME = 300
 
 executable = bin/sleepAndWake.sh
 
