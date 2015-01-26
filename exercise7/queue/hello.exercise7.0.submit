@@ -3,12 +3,12 @@
 
 universe = vanilla
 
-SLEEP_TIME = 300
-EXIT_CODE = 255
+#SLEEP_TIME = 300
+SLEEP_TIME = 3
 
 executable = bin/sleepAndWake.sh
 
-args = "$(SLEEP_TIME) 'Hello World from job $(CLUSTER).$(PROCESS)' $(EXIT_CODE)"
+args = "$(SLEEP_TIME) 'Hello World from job $(CLUSTER).$(PROCESS)'"
 
 output = outdir/hello.$(CLUSTER).$(PROCESS).out
 error  = queue/error/hello.$(CLUSTER).$(PROCESS).err
