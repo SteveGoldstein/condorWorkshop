@@ -1,4 +1,4 @@
-## Submit file for experimentation.
+## What happens when there's no executable or queue?
 ## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
 
 universe = vanilla

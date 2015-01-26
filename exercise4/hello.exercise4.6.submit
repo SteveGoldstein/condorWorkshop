@@ -1,4 +1,4 @@
-## Submit file for experimentation.
+## What happens if multiple processes write to the same file?
 ## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
 
 universe = vanilla

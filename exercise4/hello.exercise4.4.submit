@@ -1,4 +1,4 @@
-## Submit file for experimentation.
+## Is the "args" line critical?
 ## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
 
 universe = vanilla

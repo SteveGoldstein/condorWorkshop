@@ -1,4 +1,4 @@
-## Submit file for experimentation.
+## Why do you need a full path for echo?  (More on this later.)
 ## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
 
 universe = vanilla

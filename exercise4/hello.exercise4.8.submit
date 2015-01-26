@@ -1,10 +1,10 @@
-## Submit file for experimentation.
+## Is the log file critical?
 ## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
 
 universe = vanilla
 
 executable = /bin/echo
-args = Hello World from job $(CLUSTER).$(PROCESS) executing exercise $(EXERCISE).  > helloThere.$(EXERCISE)
+args = Hello World from job $(CLUSTER).$(PROCESS) executing exercise $(EXERCISE).
 
 output = hello.exercise$(EXERCISE).$(CLUSTER).$(PROCESS).out
 error  = hello.exercise$(EXERCISE).$(CLUSTER).$(PROCESS).err

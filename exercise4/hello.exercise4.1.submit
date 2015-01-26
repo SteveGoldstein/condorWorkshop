@@ -1,4 +1,4 @@
-## Submit file for experimentation.
+##  Vanilla universe is the default;
 ## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
 
 #universe = vanilla

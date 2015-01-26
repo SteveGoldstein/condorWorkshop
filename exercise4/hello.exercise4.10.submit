@@ -1,4 +1,4 @@
-## Submit file for experimentation.
+##    Experimenting with quotes.
 ## To submit:  condor_submit -append "exercise = 4.n" <submit file>  
 
 universe = vanilla
