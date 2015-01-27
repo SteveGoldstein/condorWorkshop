@@ -67,7 +67,7 @@ periodic_release = (JobStatus == 5) && ((CurrentTime - EnteredCurrentStatus) > 3
 # We don't want email about our jobs.
 notification = never
 
-executable = ../chtcjobwrapper 
+executable = ../chtcUtils/chtcjobwrapper 
 transfer_input_files = indir/,shared/
 queue
 
