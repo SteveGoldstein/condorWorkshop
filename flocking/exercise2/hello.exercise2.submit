@@ -1,0 +1,17 @@
+## Submit file for flocking to CHTC pool.
+## To submit:  condor_submit <submit file>
+
+universe = vanilla
+
++WantFlocking = TRUE
+## This is to make sure it doesn't run on a math execute node.
+Requirements = TARGET.COLLECTOR_HOST_STRING=="cm.chtc.wisc.edu"
+
+executable = /bin/echo
+args = Hello World from job $(CLUSTER).$(PROCESS)
+
+output = hello.$(CLUSTER).$(PROCESS).out
+error  = hello.$(CLUSTER).$(PROCESS).err
+log    = hello.$(CLUSTER).log
+
+queue 
