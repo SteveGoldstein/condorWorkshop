@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 /bin/sleep $1
 /bin/echo $2

@@ -1,4 +1,4 @@
-## This jobs runs for SLEEP_TIME seconds, giving us time to figure out stuff about the queue 
+## These jobs sleep for SLEEP_TIME seconds, giving us time to figure out stuff about the queue.
 ## To submit:  condor_submit <submit file>
 
 universe = vanilla
