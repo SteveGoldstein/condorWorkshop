@@ -1,0 +1,8 @@
+To flock to the CHTC pool, we just need to add the line:
+	+WantFlocking = TRUE
+
+For this workshop, we don't want the job to run on the math pool (We've already done that!),
+so we have to specify that in the requirements.
+
+   Compare the submit file to exercise2:
+   diff hello.exercise2.submit ../../exercise2/

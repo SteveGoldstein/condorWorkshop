@@ -1,0 +1,18 @@
+Exercise 4.
+	 We're going to do a bunch of experiments.  To facilitate those experiments,
+	 launch these jobs by typing:
+	 	condor_submit <submit file> -append "exercise = 4.n" 
+	
+Exercise 4.0
+	condor_submit <submit file> -append "exercise = 4.0" 
+	
+	Now look at the results to figure out what -append does.
+
+Exercise 4.1-4.10:
+	 Make 10 copies of the submit file.  In each one, comment out a line or 
+	 do some other tweak.  Then submit the job and figure out what happened and why.
+
+	 To make copies of the submit file, you might want to try this bash loop:
+	 
+	    for i in {1..10}; do cp hello.exercise4.0.submit hello.exercise4.$i.submit; done
+

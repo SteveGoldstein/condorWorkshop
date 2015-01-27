@@ -1,0 +1,8 @@
+Often, you want to organize your input, output, logs, etc. into directories.
+This shows you how to do that.
+
+Exercise 5.0:
+	condor_submit queue/hello.exercise5.submit
+
+Exercise 5.1-5.3:
+	 Play around with this.  Submit some jobs specifying non-existent directories.

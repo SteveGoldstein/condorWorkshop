@@ -1,0 +1,10 @@
+Exercise 1.0:
+	 Change into this directory and execute the command:
+	 	condor_submit hello.submit
+
+	In a few seconds (or minutes), examine the files.
+
+Exercise 1.1:
+	
+	Submit this job a second time.  What happens?
+

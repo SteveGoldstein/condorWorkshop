@@ -1,0 +1,6 @@
+
+Up until now, we have been specifying relative paths.  In this exercise, we'll use full paths
+or the $INITIALDIR macro.
+
+For all of these, submit the jobs from a directory other than this one.
+

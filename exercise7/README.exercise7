@@ -1,0 +1,9 @@
+In this exercise, we will submit a job that takes a little longer (5 minutes). 
+That will give us time to experiment with the commands:
+
+	condor_q
+	condor_status
+	condor_rm
+	condor_hold
+	condor_release
+	condor_ssh_to_job

@@ -1,0 +1,5 @@
+To run on a pool with machines that may or may not have the right python version or 
+modules, you have to pack up your python environment and take it with you.
+
+Here, we accomplish that by using CHTC's job wrapper.  Read about this at:
+	chtc.cs.wisc.edu
