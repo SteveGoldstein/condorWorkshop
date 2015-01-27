@@ -1,0 +1,24 @@
+Workshop setup:
+
+1.  Open a shell;
+
+        ssh <username>@login.math.wisc.edu
+
+    Then ssh into another math machine so not everyone is on bing.
+
+	ssh vv<N>   
+
+
+2.  Clone the git repository that has all the materials for this workshop;
+    
+        git clone file:///staff/sgoldstein/gitRepo/condorWorkshop
+
+    Then move into the directory with the materials:
+
+        cd condorWorkshop;
+
+3.  Open a second shell for editing.
+
+         ssh <username>@login.math.wisc.edu
+         ssh vv<N>   
+
