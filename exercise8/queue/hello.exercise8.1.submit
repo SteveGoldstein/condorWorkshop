@@ -13,4 +13,8 @@ output = outdir/hello.$(CLUSTER).$(PROCESS).out
 error  = queue/error/hello.$(CLUSTER).$(PROCESS).err
 log    = queue/log/hello.$(CLUSTER).log
 
+transfer_output_files = someDir.$(CLUSTER).$(PROCESS)
+queue 
+
+transfer_output_files = someDir.$(CLUSTER).$(PROCESS)/
 queue 
