@@ -1,0 +1,20 @@
+## Run a matlab code.
+## First, compile the .m file:
+## /usr/local/matlab/bin/mcc -m -R -singleCompThread -R -nodisplay -R -nojvm ./helloWorld.m
+
+## To submit:  condor_submit <submit file>
+
+universe = vanilla
+
+executable = helloWorld
+environment = MCR_CACHE_ROOT=/tmp/emptydir;MATLAB_PREFDIR=/tmp/emptydir;LD_LIBRARY_PATH=/usr/local/matlab/bin/glnxa64:/usr/local/matlab/sys/os/glnxa64:/usr/local/matlab/runtime/glnxa64
+
+args = $(CLUSTER) $(PROCESS)
+
+
+output = outdir/hello.$(CLUSTER).$(PROCESS).out
+error  = queue/error/hello.$(CLUSTER).$(PROCESS).err
+log    = queue/log/hello.$(CLUSTER).log
+
+queue 
+
