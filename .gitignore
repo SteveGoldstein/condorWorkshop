@@ -3,3 +3,6 @@
 *.log
 *~
 \#*\#
+
+## The noise from chtcjobwrapper (after cleaning up with chtcUtils/cleanupCHTCverbosity.pl)
+chtcOutput/

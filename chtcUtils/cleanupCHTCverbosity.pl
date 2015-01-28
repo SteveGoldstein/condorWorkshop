@@ -34,6 +34,7 @@ my @filelist =
      AuditLog*
      CURLTIME*
      outdir/*
+     built*input_checksum.txt
      queue/error/*
      DONE
      harvest.log
