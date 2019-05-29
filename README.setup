@@ -6,7 +6,9 @@ Workshop setup:
 
     Then ssh into another math machine so not everyone is on bing.
 
-	ssh vv<N>   
+	ssh vv<N>  (for N like 818 or 720,...)
+	or
+	ssh magma<N>  (for N in [0,1,..19])
 
 
 2.  Clone the git repository that has all the materials for this workshop;

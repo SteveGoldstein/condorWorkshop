@@ -1,7 +1,0 @@
-Let's try running python on the CHTC pool.  Here's the naive thing: just 
-tweak our original python submission.
-
-      diff queue/python.exercise1.submit ../../python/queue/
-
-But this doesn't work!
-
