@@ -1,0 +1,26 @@
+## Run a matlab code.
+## First, compile the .m file:
+## /usr/local/matlab/bin/mcc -m -R -singleCompThread -R -nodisplay -R -nojvm ./helloWorld.m
+
+## To submit:  condor_submit <submit file>
+
+universe = vanilla
++WantFlocking = true
+Requirements = TARGET.COLLECTOR_HOST_STRING=="cm.chtc.wisc.edu"
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 2GB
+
+executable = run_helloWorld.sh
+
+transfer_input_files = helloWorld
+args = v84 $(CLUSTER) $(PROCESS)
+
+
+output = outdir/hello.$(CLUSTER).$(PROCESS).out
+error  = queue/error/hello.$(CLUSTER).$(PROCESS).err
+log    = queue/log/hello.$(CLUSTER).log
+
+queue 
+

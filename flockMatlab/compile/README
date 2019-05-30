@@ -1,0 +1,3 @@
+To compile a .m script:
+
+ /usr/local/matlab/bin/mcc -m -R -singleCompThread -R -nodisplay -R -nojvm ./helloWorld.m
