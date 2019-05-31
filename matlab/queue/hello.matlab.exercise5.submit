@@ -8,6 +8,7 @@ universe = vanilla
 
 executable = helloWorld
 environment = MCR_CACHE_ROOT=/tmp/emptydir;MATLAB_PREFDIR=/tmp/emptydir;LD_LIBRARY_PATH=/usr/local/matlab/bin/glnxa64:/usr/local/matlab/sys/os/glnxa64:/usr/local/matlab/runtime/glnxa64
+  ### 5/2019 note:  maybe LD_LIBRARY_PATH isn't needed?
 
 args = $(CLUSTER) $(PROCESS)
 

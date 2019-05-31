@@ -1,0 +1,22 @@
+update matlab stuff;
+"new" stuff:
+       add link to 2.5.?  power and flexibility of queue command;
+
+    exercise with -dryrun or -stdout??
+mention man condor_xxxx
+
+more matlab stuff:
+     three ways: 1.  run matlab < script.m
+     	   	 2.  ./M_exe  with right env
+		 3.  create env;
+		 
+=======================
+1/2015
+1.  flockMatlab:   do helloWorld example and test it.
+2.  write up my notes and commit them.
+3.  meta about workshop  who attended, how long, what they did... (does this belong here?)
+4.  github.
+5. conversation in atrium.
+
+6. wiki?
+
