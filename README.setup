@@ -1,19 +1,12 @@
-Workshop setup:
+Class setup:
 
-1.  Open a shell;
+1.  Open a shell on the CHTC submit node
 
-        ssh <username>@login.math.wisc.edu
-
-    Then ssh into another math machine so not everyone is on bing.
-
-	ssh vv<N>  (for N like 818 or 720,...)
-	or
-	ssh magma<N>  (for N in [0,1,..19])
-
+        ssh <username>@submit2.chtc.wisc.edu
 
 2.  Clone the git repository that has all the materials for this workshop;
     
-        git clone file:///staff/sgoldstein/gitRepo/condorWorkshop
+        git clone https://github.com/SteveGoldstein/condorWorkshop
 
     Then move into the directory with the materials:
 
@@ -21,6 +14,6 @@ Workshop setup:
 
 3.  Open a second shell for editing.
 
-         ssh <username>@login.math.wisc.edu
-         ssh vv<N>   
+         ssh <username>@submit2.chtc.wisc.edu
+
 
