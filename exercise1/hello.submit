@@ -10,4 +10,6 @@ output = hello.out
 error  = hello.err
 log    = hello.log
 
+request_disk = 1G
+
 queue 
