@@ -1,7 +1,17 @@
 ## Submit file for flocking to CHTC pool.
 ## To submit:  condor_submit <submit file>
-
+#######################################################
+########  general configuration
 universe = vanilla
+
+## Fast matching for the class (only use for jobs requiring minimal resources)
++BOT960 = true
+
+## Resources to allocate for the job
+request_cpus   = 1
+request_disk   = 1G
+request_memory = 1G 
+######################################################
 
 +WantFlocking = TRUE
 ## This is to make sure it doesn't run on a math execute node.

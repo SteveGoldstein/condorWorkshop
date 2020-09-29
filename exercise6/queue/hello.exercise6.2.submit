@@ -1,7 +1,19 @@
 ## Submit this from a directory other than the exercise6 dir;
 ## To submit:  condor_submit <submit file>
 
+#######################################################
+########  general configuration
 universe = vanilla
+
+## Fast matching for the class (only use for jobs requiring minimal resources)
++BOT960 = true
+
+## Resources to allocate for the job
+request_cpus   = 1
+request_disk   = 1G
+request_memory = 1G 
+######################################################
+
 initialdir = <full-path-to>/exercise6
 
 executable = /bin/echo
