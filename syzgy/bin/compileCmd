@@ -1,1 +1,0 @@
- /usr/local/matlab/bin/mcc -m -R -singleCompThread -R -nodisplay -R -nojvm -a lusol/matlab -d exe/ bin/final_lu.m
