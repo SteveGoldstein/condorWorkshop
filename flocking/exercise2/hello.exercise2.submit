@@ -1,4 +1,4 @@
-## Submit file for flocking to CHTC pool.
+## Submit file for flocking to other campus pools beyond CHTC.
 ## To submit:  condor_submit <submit file>
 #######################################################
 ########  general configuration
@@ -14,8 +14,8 @@ request_memory = 1G
 ######################################################
 
 +WantFlocking = TRUE
-## This is to make sure it doesn't run on a math execute node.
-Requirements = TARGET.COLLECTOR_HOST_STRING=="cm.chtc.wisc.edu"
+## This is to make sure it doesn't run on a CHTC execute node.
+Requirements = TARGET.COLLECTOR_HOST_STRING =!= "cm.chtc.wisc.edu"
 
 executable = /bin/echo
 args = Hello World from job $(CLUSTER).$(PROCESS)
